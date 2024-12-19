@@ -3,13 +3,15 @@ This project allows the user to input two numbers and perform basic arithmetic o
 
 Features:
 
-Addition, Subtraction, Multiplication, Division
-Handles division by zero
-User-friendly interface
-Looping to perform multiple calculations
+1.Addition, Subtraction, Multiplication, Division
+2.Handles division by zero
+3.User-friendly interface
+4.Looping to perform multiple calculations
+
+
 Run the code:
 
-Input two operands.
-Choose the operation (+, -, *, /).
-Get the result of the operation.
-Optionally perform more calculations
+1.Input two operands.
+2.Choose the operation (+, -, *, /).
+3.Get the result of the operation.
+4.Optionally perform more calculations
