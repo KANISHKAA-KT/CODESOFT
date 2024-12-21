@@ -1,0 +1,30 @@
+#include <iostream>
+#include<cstdlib>
+#include<ctime>
+using namespace std;
+int randomnumber(){
+    return rand() % 100 + 1;
+}
+
+
+int main()
+{
+   int guess=0;
+   int random = randomnumber();
+   cout<<"Lets play the guessing game! Excited?\n";
+   do{
+      srand(time(0));
+       cout<<"Enter any number :";
+       cin>>guess;
+       if(guess<random){
+           cout<<"Ooops, Its too low! try again\n";
+       }
+       else if(guess>random){
+           cout<<"Ooops, Its too high! try again\n";
+       }
+       else{
+           cout<<"\n Hurray! You match rightly Congrats\n";
+       }
+   }while(guess!=random);
+    return 0;
+}
