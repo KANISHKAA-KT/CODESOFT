@@ -12,4 +12,3 @@ CODESOFT INTERSHIP 1 : C++
 3. Build a simple console-based Tic-Tac-Toe game that
  allows two players to play against each other
 
-CODESOFT INTERSHIP 2 : WEB DEVELOPEMENT
